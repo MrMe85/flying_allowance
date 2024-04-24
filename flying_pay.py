@@ -43,7 +43,7 @@ while True:
     if RANK == 1:
         BASICSALARY = CNSALARY
         FIXEDALLOWANCE = CNALLOWANCE
-    if RANK == 2:
+    elif RANK == 2:
         BASICSALARY = FOSALARY
         FIXEDALLOWANCE = FOALLOWANCE
     else:
