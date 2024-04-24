@@ -78,7 +78,7 @@ while True:
 
     FLYINGALLOWANCE = int(allowance(RANK, HOURS))
 
-    print(f"Your flying hours for the month is ${FLYINGALLOWANCE}")
+    print(f"Your flying allowance for the month is: ${FLYINGALLOWANCE}")
     print(
         f"Your total compensation for the month is: ${BASICSALARY+FIXEDALLOWANCE+FLYINGALLOWANCE}")
 
